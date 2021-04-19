@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<!-- <a href='https://www.freepik.com/vectors/people'>People vector created by stories - www.freepik.com</a> -->
+<title>Tic-Tac-Toe</title>
+</head>
+<body onload="startGame()">
+	<h1><font class="text" >Tic-Tac-Toe!</font></h1><br>
+	<div id="message" class="text1">Result</div>
+	<table>
+		<tr>
+			<td id="s1" class="Square" onclick="nextMove(this);"></td>
+			<td id="s2" class="Square" onclick="nextMove(this);"></td>
+			<td id="s3" class="Square" onclick="nextMove(this);"></td>
+		</tr>
+		<tr>
+			<td id="s4" class="Square" onclick="nextMove(this);"></td>
+			<td id="s5" class="Square" onclick="nextMove(this);"></td>
+			<td id="s6" class="Square" onclick="nextMove(this);"></td>
+		</tr>
+		<tr>
+			<td id="s7" class="Square" onclick="nextMove(this);"></td>
+			<td id="s8" class="Square" onclick="nextMove(this);"></td>
+			<td id="s9" class="Square" onclick="nextMove(this);"></td>
+		</tr>
+	</table>
+	<button type="button" onclick="startGame()" class="but">Start New Game</button>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

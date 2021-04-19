@@ -1,0 +1,77 @@
+body
+{
+  font-family: Arial Rounded MT;
+  background: url(./game_background.png);
+  background-size: cover;
+  background-position: center;
+}
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  padding: 0px;
+  margin: 150px auto;
+  /*background-color: #272727;*/
+  background-color: #ECF0F1 ;
+  border-radius: 10%;
+}
+table tr td{
+  width: 80px;
+  height: 80px;
+   border:2px solid #102C40;
+  border-radius: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+table tr td:hover{
+  /*background: #2c3531;*/
+  background: #B3B6B7;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.but{
+  position: absolute;
+  width: 200px;
+  /*min-width: 200px;*/
+  height: 50px;
+  /*min-height: 50px;*/
+  background-color: #000;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  transform: translate(-50%,-50%);
+  left: 50.1%;
+  top: 75%;
+}
+.text{
+  text-align: center;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  font-weight: bold;
+  color: white;
+  font-size: 60px;
+}
+.shift{
+  top: 50%;
+  left:50%;
+  transform: translate(1%,100%);
+}
+.text1{
+  text-align: center;
+  top: 10%;
+  left: 50%;
+  transform: translate(-45%,200%);
+  position: absolute;
+  font-weight: bold;
+  /*color:#85C1E9 ;*/
+  color: #A9CCE3;
+  /*color: #F7F9F9;*/
+  font-size: 30px;
+}
+.but:hover{
+  /*color: #3FC80E;*/
+  color:#85C1E9 ;
+}
